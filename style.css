@@ -7,6 +7,9 @@ body {
     display: flex;
 }
 
+
+/* BURGER MENU */
+
 #menu {
     visibility: hidden;
 }
@@ -55,6 +58,9 @@ label::after {
     -webkit-transform: rotate(-45deg) translateY(0px);
 }
 
+
+/* FAWZI CHIBAH */
+
 .maintext {
     font-family: 'Cormorant';
     text-align: center;
@@ -65,15 +71,21 @@ label::after {
 }
 
 .maintext h1 {
-    font-size: 80px;
-    color: white;
+    font-size: 90px;
+    color: wheat;
     font-weight: lighter;
 }
+
+
+/* LOGO FC */
 
 header {
     color: white;
     font-size: 20px;
 }
+
+
+/* IMAGE PRINCIPALE */
 
 .homeimg {
     position: absolute;
@@ -85,4 +97,16 @@ header {
 
 .louis {
     width: 100%;
+}
+
+
+/* view photos */
+
+h5 {
+    position: absolute;
+    left: 0;
+    bottom: 1em;
+    margin: 2em;
+    z-index: 2;
+    color: white;
 }
